@@ -1,3 +1,8 @@
+https://dopshy-arena.meteorapp.com/
+
+
+
+
 
 ## Локальный деплой
 
