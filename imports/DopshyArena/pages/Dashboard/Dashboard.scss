@@ -1,0 +1,116 @@
+.dashboard {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__wrapperTable:hover {
+        overflow-x: auto;
+    }
+
+    &__wrapperSelect {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 800px;
+        width: 100%;
+        margin-bottom: 30px;
+
+        .search {
+            max-width: 200px;
+        }
+    }
+
+    &__wrapperTable {
+        width: 100%;
+        max-width: 1080px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow-x: hidden;
+
+        .greenColor {
+            background-color: green;
+        }
+
+        .yellowColor {
+            background-color: yellow;
+        }
+
+        .redColor {
+            background-color: red;
+        }
+
+        .greenColor,
+        .yellowColor,
+        .redColor {
+            color: #ffff;
+            padding: 3px;
+            border-radius: 20%;
+        }
+
+        .loader {
+            margin: 0 auto;
+        }
+
+        .myTable td {
+            padding: 10px;
+            text-align: center;
+            border-right: 1px solid #ced4da;
+        }
+
+        .myTable th {
+            border-right: 1px solid #ced4da;
+        }
+
+        .myTable td {
+            text-align: start;
+        }
+
+        .myTable th:first-child,
+        .myTable td:first-child,
+        .myTable th:last-child,
+        .myTable td:last-child {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .myTable th:last-child,
+        .myTable td:last-child {
+            border-right: none;
+        }
+
+        .myTable th:first-child,
+        .myTable td:first-child {
+            position: sticky;
+            left: 0;
+            z-index: 2;
+            background-color: rgb(241, 241, 241);
+            border-right: 1px solid #ced4da;
+        }
+    }
+}
+
+.g-table {
+    overflow: revert !important;
+}
+
+
+.wrapperComment {
+    .comment {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 20px;
+        width: 100%;
+    }
+
+    .icon {
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}

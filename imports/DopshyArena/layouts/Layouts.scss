@@ -1,0 +1,29 @@
+.container {
+    margin: 0 auto;
+    max-width: 500px !important;
+}
+
+.header {
+    padding-bottom: 5em;
+
+    &__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-link {
+            color: #314b60;
+            padding: 0 94px;
+            text-decoration: none;
+        }
+
+        &-auth {
+            margin-right: 41px;
+            font-size: 16px;
+            padding: 5px 15px;
+            color: white;
+            border-radius: 42px;
+            background-color: #47BC88;
+        }
+    }
+}

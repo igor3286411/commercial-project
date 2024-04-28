@@ -1,0 +1,73 @@
+$table-cell-padding-y: 5px;
+$table-cell-padding-x: 5px;
+
+.atendance-table__thead-th {
+    font-size: 17px;
+    text-align: center;
+}
+
+.atendance-table__mark-visit {
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+
+.attendance-table-student {
+    text-align: center;
+
+    table {
+        margin: 60px auto 0;
+        max-width: 400px;
+
+        td {
+            width: 50%;
+        }
+    }
+}
+
+.attendance-table-data-next-and-back {
+    display: flex;
+    justify-content: space-between;
+}
+
+.attendance-table {
+    table {
+        td{
+            padding: 5px;
+        }
+        th{
+            padding: 5px;
+        }
+    }
+}
+
+
+.attendance-table__analytics {
+    td {
+        font-size: 15px;
+    }
+
+    .attendance-table__text {
+        text-align: center;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+    }
+
+    .atendance-table__input {
+        text-align: center;
+        vertical-align: middle;
+
+        input {
+            border: none;
+            outline: none;
+            width: 20px;
+            font-size: 20px;
+
+            &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.profile {
+    &__container {
+        display: flex;
+    }
+
+    &__right-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__button {
+        margin-bottom: 10px;
+    }
+
+    &__image {
+        max-width: 100%;
+        max-height: 100%;
+        padding: 20px;
+
+    }
+
+    &__image img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%
+    }
+
+    &__text {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__left-side {
+        width: 250px;
+    }
+}
+
+.profileDataLine {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.trainer-grops {
+    &__sections {
+        display: flex;
+        gap: 30px;
+
+        button {
+            font-size: 35px;
+        }
+    }
+
+    &__groups {
+        display: flex;
+        gap: 30px;
+        margin: 20px 0;
+
+        button {
+            font-size: 20px;
+        }
+    }
+
+    &__sub-group {
+        display: flex;
+        gap: 30px;
+
+        button {
+            font-size: 15px;
+        }
+    }
+}

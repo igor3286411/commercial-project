@@ -1,0 +1,11 @@
+.price-button {
+    background-color: white;
+
+    &__active {
+        background-color: green;
+    }
+
+    &__booking {
+        background-color: red;
+    }
+}

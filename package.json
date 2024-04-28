@@ -1,0 +1,61 @@
+{
+  "name": "test-project",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "build": "CI=false react-scripts build",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@gravity-ui/uikit": "^6.0.0",
+    "@babel/runtime": "^7.23.5",
+    "@daminort/reservation-grid": "^3.0.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^2.0.1",
+    "@types/react-redux": "^7.1.33",
+    "bootstrap": "^5.3.2",
+    "css-loader": "^6.9.0",
+    "date-fns": "^3.3.1",
+    "dayschedule-widget": "^1.1.9",
+    "formik": "^2.4.5",
+    "lodash": "^4.17.21",
+    "meteor-node-stubs": "^1.2.7",
+    "moment": "^2.30.1",
+    "react": "^18.2.0",
+    "react-big-calendar": "^1.8.6",
+    "react-bootstrap": "^2.10.0",
+    "react-datepicker": "^6.1.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-notifications-menu": "^1.0.6",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.21.3",
+    "react-sweetalert2": "^0.6.0",
+    "react-text-mask": "^5.5.0",
+    "reactjs-popup": "^2.0.6",
+    "recharts": "^2.12.2",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+    "sass-loader": "^14.0.0",
+    "usehooks-ts": "^3.0.2",
+    "yup": "^1.3.3"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.jsx",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  },
+  "devDependencies": {
+    "@gravity-ui/uikit": "^6.0.0",
+    "@types/meteor": "^2.9.7",
+    "@types/react-text-mask": "^5.4.14",
+    "@types/redux": "^3.6.0"
+  }
+}

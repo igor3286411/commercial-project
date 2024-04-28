@@ -1,0 +1,101 @@
+.add-sections {
+    max-width: 1280px;
+    margin: auto;
+
+    @media(max-width:1350px) {
+        max-width: 95%;
+    }
+
+    h2 {
+        font-size: 48px;
+        text-align: left;
+
+        @media(max-width:1250px) {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        @media(max-width:500px) {
+            font-size: 30px;
+        }
+    }
+
+    &__menu-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .g-breadcrumbs {
+            margin: 10px 0;
+
+            &__inner {
+                font-size: 20px;
+            }
+        }
+    }
+
+
+    &__menu-section {
+        margin-top: 30px;
+        display: flex;
+        gap: 70px;
+
+        @media(max-width:1350px) {
+            gap: 50px;
+        }
+
+        @media(max-width:1300px) {
+            gap: 35px;
+        }
+
+        @media(max-width:1250px) {
+            justify-content: center;
+        }
+
+        &-button {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            &-text {
+                width: 100%;
+            }
+        }
+
+        &-popup-edit {
+            cursor: pointer;
+            padding: 5px;
+
+            &:hover {
+                background-color: rgb(211, 211, 211);
+            }
+        }
+
+        &-section,
+        &-groups,
+        &-sub-groups {           
+
+            h3 {
+                @media(max-width:1250px) {
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+
+            button {
+
+
+                @media(max-width:1250px) {
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+            }
+
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 200px;
+        }
+
+    }
+}

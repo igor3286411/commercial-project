@@ -1,0 +1,16 @@
+.booking {
+  &__container {
+    overflow: hidden;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  &__panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

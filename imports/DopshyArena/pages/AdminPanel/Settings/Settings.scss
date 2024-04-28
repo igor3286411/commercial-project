@@ -1,0 +1,15 @@
+.settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    &__control {
+        margin-top: 10px;
+    }
+
+    &__btn {
+        margin-left: 20%;
+        width: 300px;
+    }
+}
